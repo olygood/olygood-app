@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "./pages.module.css"
 import {NavLink} from 'react-router-dom'
+import ContainerCard from '../components/card/ContainerCard'
+
 
 const Show = () => {
     return (
@@ -11,7 +13,10 @@ const Show = () => {
                     <NavLink className={styles.show_link} to='/show'>photoshop</NavLink>
                     <NavLink className={styles.show_link} to='/show'>after effect</NavLink>
                 </div>
-                <h1>je suis le show</h1>
+                
+                <div className='grille'>
+                   <ContainerCard />
+                </div>
         </>
             
         

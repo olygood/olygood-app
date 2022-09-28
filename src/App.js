@@ -6,7 +6,7 @@ import Cv from "./pages/Cv"
 import Show from "./pages/Show"
 import Contact from './pages/Contact'
 import  Erreur404 from './pages/Erreur404'
-
+import Resumer from './pages/Resumer'
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
             <Route path='/show' element={<Show />}/>
             <Route path='/cv' element={<Cv />}/>
             <Route path='/contact' element={<Contact />}/>
+            <Route path='/resumer' element={<Resumer />}/>
             <Route path='*' element={<Erreur404 /> }/>
          </Routes>
 

@@ -17,3 +17,19 @@
     font-size: 20px;
     font-weight: bold;
 }
+/*GRILLE / SHOW------------------------------------------------------------*/
+.grille{
+    display: grid;
+
+}
+/*RESUMER------------------------------------------------------------------------*/
+.resumer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    
+}
+.resumer h1{
+    margin: 0 0 0 50px;
+}
