@@ -4,11 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*NAVIGATION------------------------------------------------------------------------*/
 ul>li{
     display: inline;
     margin-left: 10px;
     font-size: 24px;
     font-weight: 900;
+    text-decoration: none;
+    color:white;
+    
 }
 p{
     font-size: 24px;
@@ -17,11 +21,49 @@ p{
 .navigation{
     display: flex;
     flex-direction: row;
-    justify-content:end;
+    justify-content:space-between;
     align-items: center;
     padding: 20px;
-    width: 900px;
-    height: 70px;
-    border: 2px solid red;
+    width: auto;
+    height: 100px;
+   
     background:rgb(199, 199, 239);
 }
+.side_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:50%;
+    
+}
+.side_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+    
+
+}
+.title_link{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.title_olygood{
+    color: white;
+    background:rgb(33, 37, 75);
+    font-size:40px;
+    text-decoration: none;
+}
+
+/* .show{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height:40px;
+    background:red;
+} */

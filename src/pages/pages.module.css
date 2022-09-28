@@ -1,0 +1,19 @@
+/*SHOW---------------------------------------------------------------------------------*/
+.show{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height:40px;
+    background:red;
+    color: white;
+
+}
+.show_link{
+    color: white;
+    text-decoration: none;
+    margin: 0 0 5px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
