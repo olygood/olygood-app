@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 24px;
+}
+p{
+    font-size: 24px;
 }
 /*NAVIGATION------------------------------------------------------------------------*/
 ul>li{
@@ -14,9 +18,7 @@ ul>li{
     color:white;
     
 }
-p{
-    font-size: 24px;
-}
+
 
 .navigation{
     display: flex;
@@ -28,6 +30,13 @@ p{
     height: 100px;
    
     background:rgb(199, 199, 239);
+}
+.title_link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 30px 0 10px;
+   
+ 
 }
 .side_left{
     display: flex;
@@ -46,17 +55,25 @@ p{
     
 
 }
-.title_link{
-    color: white;
-    text-decoration: none;
-    margin-left: 50px;
-}
+
 .title_olygood{
     color: white;
     background:rgb(33, 37, 75);
     font-size:40px;
     text-decoration: none;
 }
+/*Navigation ShowNavigation--------------------------------------------------------------------*/
+.show_navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 50px;
+    border: 2px solid rgb(28, 27, 27);
+    background:rgb(228, 32, 32);
+}
+
 /*Container-card---------------------------------------------------------------*/
 .container{
     display: flex;
@@ -103,3 +120,4 @@ p{
     border: 2px solid red;
     background:rgb(191, 190, 190);
 }
+

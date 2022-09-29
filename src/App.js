@@ -7,6 +7,8 @@ import Show from "./pages/Show"
 import Contact from './pages/Contact'
 import  Erreur404 from './pages/Erreur404'
 import Resumer from './pages/Resumer'
+import Animation from './pages/Animation'
+import Projet from './pages/projet'
 
 function App() {
   return (
@@ -14,20 +16,16 @@ function App() {
      
       <BrowserRouter>
         <Navigation />
-      
-         <Routes>
+          <Routes>
             <Route exact path='/' element={<Home />}/>
             <Route path='/show' element={<Show />}/>
             <Route path='/cv' element={<Cv />}/>
             <Route path='/contact' element={<Contact />}/>
+            <Route path='/animation' element={<Animation />}/>
+            <Route path='/projet' element={<Projet/>}/>
             <Route path='/resumer' element={<Resumer />}/>
             <Route path='*' element={<Erreur404 /> }/>
-         </Routes>
-
-            
-         
-        
-
+          </Routes>
       </BrowserRouter>
 
       
